@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: cantarell;
+    font-family: 12px;
+    background: #ededed;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 28px;
+    border-bottom: 1px solid rgba(163, 157, 157, 0.425);
+    background-color: #333;
+    color: #ffffff;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+.logo {
+    width: 20px;
+    margin-right: 12px;
+}
+
+input {
+    font-family: cantarell;
+}
+
+label {
+    margin-bottom: 12px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 4px;
+}
+
+input[type="select"],
+input[type="options"] {
+    font-family: cantarell;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 52px;
+}
+
+.form-group,
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 12px;
+    border-radius: 4px;
+    background-color: #ffffffbe;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#form div {
+    margin: 10px;
+}
+
+#form div p {
+    margin-bottom: 10px;
+}
+
+#name,
+#email,
+#age,
+#role {
+    padding: 8px;
+    border-top: 2px solid navy;
+    border-radius: 4px;
+    outline: none;
+}
+
+#role {
+    font-family: cantarell;
+    font-size: 14px;
+}
+
+#button {
+    width: 100%;
+    outline: none;
+    padding: 12px 8px;
+    font-size: 18px;
+    border: none;
+    background-color: navy;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: cantarell;
+}
+
+#button:hover {
+    background-color: rgb(4, 4, 77);
+}
+
+#button:active {
+    background-color: rgb(4, 4, 41);
+}
+
+.img-backgound {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    z-index: -1;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 28px;
+    background-color: rgb(34, 34, 34);
+    color: #ffffff;
+    z-index: 1;
+}

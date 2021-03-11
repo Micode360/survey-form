@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <main class="main">
+        <header>
+            <img class="logo" src="./img/logo.png" alt="logo">
+            <h1>Survey Form</h1>
+        </header>
+        <div class="container">
+            <form id="form" action="#">
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Name" />
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Age</label>
+                    <input type="age" name="age" id="age" placeholder="Age" />
+                </div>
+
+                <div class="form-group">
+                    <p>Which option best describes your current role?</p>
+
+                    <select id="role" name="role" id="role">
+                        <option value="student">Front End Developer</option>
+                        <option value="full time job">Back End Developer</option>
+                        <option value="full time learner">Full Stack Developer</option>
+                        <option value="Chef">Project Manager</option>
+                        <option value="prefer not to say">Prefer not to say</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <p>Would you recommend your role to a friend?</p>
+                    <label>
+                    <input
+                      name="user-recommend"
+                      value="definitely"
+                      type="radio"
+                      class="input-radio"
+                      checked
+                    />Definitely</label
+                  >
+                  <label>
+                    <input
+                      name="user-recommend"
+                      value="maybe"
+                      type="radio"
+                      class="input-radio"
+                    />Maybe</label
+                  >
+            
+                  <label
+                    ><input
+                      name="user-recommend"
+                      value="not-sure"
+                      type="radio"
+                      class="input-radio"
+                    />Not sure</label
+                  >
+                </div>
+
+                <div class="form-group">
+                <p>
+                    What would you like to see improved about you in relation to your job?
+                    <span class="clue">(Check all that apply)</span>
+                  </p>
+            
+                  <label
+                    ><input
+                      name="prefer"
+                      value="Determination"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Determination</label
+                  >
+                  <label>
+                    <input
+                      name="prefer"
+                      value="Friendliness"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Friendliness</label
+                  >
+                  <label
+                    ><input
+                      name="prefer"
+                      value="Problem-solving abilities"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Problem-solving abilities</label
+                  >
+
+                  <label
+                  ><input
+                    name="prefer"
+                    value="Ambitious"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />Ambitious</label
+                >
+    
+
+                <label
+                ><input
+                  name="prefer"
+                  value="Professionalism"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Professionalism</label
+              >
+                </div>
+             <div class="button-container">
+                 <button id="button">Send</button>
+             </div>
+            </form>
+        </div>
+        <img class="img-backgound" src="./img/Hand checklist on board. Orange color with flower.jpg" alt="flower">
+        <footer>
+            <p>2021, By Miracle Abaye</p>
+        </footer>
+    </main>
+</body>
+
+</html>
